@@ -9,7 +9,6 @@ setl autoindent
 setl indentexpr=PbIndent(v:lnum)
 setl indentkeys+=<:>,0=},0=)
 setl expandtab
-setl shiftwidth=2
 
 if exists('*PbIndent')
   finish
